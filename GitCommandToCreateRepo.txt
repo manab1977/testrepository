@@ -1,0 +1,6 @@
+echo "# testrepository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/manab1977/testrepository.git
+git push -u origin master
