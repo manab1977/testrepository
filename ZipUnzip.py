@@ -4,6 +4,8 @@ listB = ['a', 'b', 'c', 'd']
 zl = zip(listA, listB)
 
 zl = list(zl)
+print ("Hello Srinija Dey! How are you?")
+
 print ("Before Zip")
 print(listA)
 

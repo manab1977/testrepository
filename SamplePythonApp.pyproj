@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>48a0b8c8-c3fc-43b9-8974-35b4469521be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ZipUnzip.py</StartupFile>
+    <StartupFile>SampleMLProgram1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="SampleMLProgram1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SamplePythonApp.py" />
     <Compile Include="ZipUnzip.py">
       <SubType>Code</SubType>
